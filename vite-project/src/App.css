@@ -18,7 +18,7 @@ body{
   animation: AnimationName 3s ease infinite;
 }
 
-@keyframes AnimationName {
+/* @keyframes AnimationName {
   0%,
   100% {
     background-position: 0% 50%;
@@ -26,4 +26,20 @@ body{
   50% {
     background-position: 100% 50%;
   }
+} */
+
+.ty{
+  font-family: 'Kablammo', cursive;
 }
+.anihr{
+	top:5.8em;
+	-webkit-animation: thread2 3s infinite;
+  	-moz-animation:    thread2 3s infinite;
+  	-o-animation:      thread2 3s infinite;
+  	animation:         thread2 3s infinite;	
+}
+@keyframes thread2 {
+  0%   { width: 100%; }
+  50% { width: 100%; }
+  80% { width: 0px;}
+  100%{ width:100%;}}
